@@ -1,6 +1,7 @@
 # My neovim config
 
 - plugin manager - vim-plug
+- navigate with netrw
 - most using plugins:
 - - windwp/nvim-autopairs
 - - numToStr/Comment
