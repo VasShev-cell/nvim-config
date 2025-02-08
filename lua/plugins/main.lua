@@ -1,0 +1,6 @@
+require 'plugins.coc'.setup()
+require 'plugins.telescope'.setup()
+require 'plugins.gitsigns'.setup()
+require 'plugins.comment'.setup()
+require 'plugins.pairs'.setup()
+require 'plugins.lualine'.setup()
