@@ -11,5 +11,5 @@
 - - nvim-telescope/telescope
 
 ## Wish list
-[ ] add bindings for qf list
+- [ ] add bindings for qf list
 
