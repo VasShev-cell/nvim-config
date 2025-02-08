@@ -9,3 +9,7 @@
 - - neoclide/coc
 - - lewis6991/gitsigns
 - - nvim-telescope/telescope
+
+## Wish list
+[ ] add bindings for qf list
+
