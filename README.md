@@ -12,4 +12,4 @@
 
 ## Wish list
 
-- [ ] add bindings for qf list
+- [x] add bindings for qf list
