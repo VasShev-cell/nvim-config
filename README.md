@@ -6,10 +6,10 @@
 - - windwp/nvim-autopairs
 - - numToStr/Comment
 - - wakatime/vim-wakatime
-- - neoclide/coc
+- - neoclide/coc-prettier
 - - lewis6991/gitsigns
 - - nvim-telescope/telescope
 
 ## Wish list
-- [ ] add bindings for qf list
 
+- [ ] add bindings for qf list
