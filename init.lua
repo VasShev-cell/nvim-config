@@ -27,19 +27,22 @@ Plug('lewis6991/gitsigns.nvim')
 vim.call('plug#end')
 
 vim.cmd('silent! colorscheme tokyonight')
-vim.opt.mouse = ""
 opt.shiftwidth = 2
 opt.tabstop = 2
+opt.compatible = false
 opt.smartindent = true
 opt.relativenumber = true
+opt.mouse = ""
+
 vim.o.wrap = false
+vim.o.showtabline = 2
+vim.o.tabline = "%!v:lua.MyTabLine()"
 
 vim.g.netrw_liststyle = 4
 vim.g.netrw_banner = 0
+vim.g.prettier = 1
 
-vim.o.showtabline = 2 -- Always show tabline
 
-vim.o.tabline = "%!v:lua.MyTabLine()"
 
 function _G.MyTabLine()
 	local s = ''
@@ -56,7 +59,6 @@ function _G.MyTabLine()
 	return s
 end
 
-vim.g.prettier = 1
 
 require 'keys.bindings'.setup()
 require 'plugins.main'

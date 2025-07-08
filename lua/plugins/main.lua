@@ -1,4 +1,5 @@
 require 'plugins.telescope'.setup()
+require 'plugins.treesitter'.setup()
 require 'plugins.gitsigns'.setup()
 require 'plugins.comment'.setup()
 require 'plugins.pairs'.setup()
