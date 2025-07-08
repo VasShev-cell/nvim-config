@@ -1,6 +1,6 @@
 # My neovim config
 
-- plugin manager - vim-plug
+- plugin manager - lazy
 - navigate with netrw
 - most using plugins:
 - - windwp/nvim-autopairs
@@ -10,6 +10,3 @@
 - - lewis6991/gitsigns
 - - nvim-telescope/telescope
 
-## Wish list
-
-- [x] add bindings for qf list

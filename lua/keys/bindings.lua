@@ -1,4 +1,4 @@
-local M = {}
+	local M = {}
 
 function M.setup()
 	local vim = vim
@@ -7,7 +7,6 @@ function M.setup()
 	local map = vim.api.nvim_set_keymap
 
 	g.mapleader = " "
-	g.maplocalleader = " "
 
 	opt.clipboard = 'unnamedplus'
 	opt.splitbelow = true
