@@ -1,5 +1,4 @@
 local vim = vim
-local opt = vim.opt
 local Plug = vim.fn['plug#']
 
 vim.call('plug#begin')
@@ -27,12 +26,6 @@ Plug('lewis6991/gitsigns.nvim')
 vim.call('plug#end')
 
 vim.cmd('silent! colorscheme tokyonight')
-opt.shiftwidth = 2
-opt.tabstop = 2
-opt.compatible = false
-opt.smartindent = true
-opt.relativenumber = true
-opt.mouse = ""
 
 vim.o.wrap = false
 vim.o.showtabline = 2
@@ -41,7 +34,14 @@ vim.o.tabline = "%!v:lua.MyTabLine()"
 vim.g.netrw_liststyle = 4
 vim.g.netrw_banner = 0
 vim.g.prettier = 1
+vim.g.netrw_winsize = 25 -- percentage
 
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = "netrw",
+	callback = function()
+		vim.cmd("vertical resize 30") -- fixed width
+	end,
+})
 
 
 function _G.MyTabLine()
@@ -59,6 +59,6 @@ function _G.MyTabLine()
 	return s
 end
 
-
 require 'keys.bindings'.setup()
+require 'keys.opts'
 require 'plugins.main'
