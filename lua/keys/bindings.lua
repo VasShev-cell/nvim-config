@@ -22,7 +22,7 @@ function M.setup()
 
 	map('n', '<tab><tab>', ':tabn<CR>', opts)
 	map('n', '<S-tab><S-tab>', ':tabp<CR>', opts)
-	map('n', '<tab>t', ':tabnew<CR>:Ex<CR>', opts)
+	map('n', '<tab>t', ':tabnew<CR>:Lexplore<CR>', opts)
 
 	map('n', '<leader>co', ':copen<CR>', opts)
 	map('n', '<leader>cn', ':cn<CR>', opts)
