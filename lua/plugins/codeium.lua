@@ -9,8 +9,6 @@ function M.setup()
 			enabled = true,
 			key_bindings = {
 				accept = "<C-l>",
-				next = "<C-;>",
-				prev = "<C-,>",
 			},
 		},
 	})
