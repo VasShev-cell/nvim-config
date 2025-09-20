@@ -1,7 +1,8 @@
 # My neovim config
 
 - plugin manager - nvim plug manager
-- navigate with netrw
+- navigation using `oil`
+- theme - `tokyonight`
 - most using plugins:
 - - windwp/nvim-autopairs
 - - numToStr/Comment
@@ -9,5 +10,8 @@
 - - neoclide/coc-prettier
 - - lewis6991/gitsigns
 - - nvim-telescope/telescope
-- - Exafunction/codeium.nvim
-- - aweis89/aider.nvim
+- - Exafunction/windsurf
+- - CopilotC-Nvim/CopilotChat
+- - nvim-lualine/lualine
+- - lewis6991/gitsigns
+- - nvim-treesitter/nvim-treesitter
