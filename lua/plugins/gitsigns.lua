@@ -1,7 +1,8 @@
-return {
-	'lewis6991/gitsigns.nvim',
-	opts = { 
-		signs = {
+local M = {}
+
+function M.setup()
+	require('gitsigns').setup {
+		signs                        = {
 			add          = { text = '┃' },
 			change       = { text = '┃' },
 			delete       = { text = '_' },
@@ -48,6 +49,8 @@ return {
 			relative = 'cursor',
 			row = 0,
 			col = 1
-		}
+		},
 	}
-}
+end
+
+return M

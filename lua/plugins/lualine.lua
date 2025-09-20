@@ -1,4 +1,7 @@
-return {
-	'nvim-lualine/lualine.nvim',
-	dependencies = { 'nvim-tree/nvim-web-devicons' }
-}
+local M = {}
+
+function M.setup()
+	require('lualine').setup {}
+end
+
+return M

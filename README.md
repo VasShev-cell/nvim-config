@@ -1,10 +1,8 @@
 # My neovim config
 
-## Current branch of config
-This version of config not fully configured. Now i use version of config in `coc` branch.
-
-- plugin manager - lazy
-- navigate with netrw
+- plugin manager - nvim plug manager
+- navigation using `oil`
+- theme - `tokyonight`
 - most using plugins:
 - - windwp/nvim-autopairs
 - - numToStr/Comment
@@ -12,4 +10,8 @@ This version of config not fully configured. Now i use version of config in `coc
 - - neoclide/coc-prettier
 - - lewis6991/gitsigns
 - - nvim-telescope/telescope
-
+- - Exafunction/windsurf
+- - CopilotC-Nvim/CopilotChat
+- - nvim-lualine/lualine
+- - lewis6991/gitsigns
+- - nvim-treesitter/nvim-treesitter
