@@ -15,6 +15,6 @@ vim.pack.add({
 	{ src = "https://github.com/akinsho/toggleterm.nvim" },
 	{ src = "https://github.com/wakatime/vim-wakatime" },
 	{ src = "https://github.com/folke/tokyonight.nvim" },
-	{ src = "https://github.com/CopilotC-Nvim/CopilotChat.nvim" },
-
+	{ src = "https://github.com/David-Kunz/gen.nvim" },
+	{ src = "https://github.com/tpope/vim-fugitive" },
 })

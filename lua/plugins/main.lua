@@ -7,7 +7,8 @@ require 'plugins.codeium'.setup()
 require 'plugins.todo'.setup()
 require 'plugins.telescope'
 require 'plugins.oil'
-require 'plugins.copilot'
+require 'plugins.gen'
+-- require 'plugins.copilot'
 require 'plugins.theme'
 -- require 'plugins.aider'.setup()
 require 'plugins.coc'.setup()
